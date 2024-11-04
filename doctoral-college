@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+<head>
+  <meta charset="utf-8" />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://doctoral-college.ed.ac.uk/" />
+<link rel="shortlink" href="https://doctoral-college.ed.ac.uk/" />
+<meta property="og:site_name" content="The University of Edinburgh" />
+<meta property="og:url" content="https://doctoral-college.ed.ac.uk/doctoral-college" />
+<meta property="og:title" content="Doctoral College" />
+<meta property="og:description" content=" " />
+<meta property="og:image" content="https://doctoral-college.ed.ac.uk/themes/upstream/wpp_theme/images/uoe-logo-centred-black.png" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script>
+    const uoe_gtm_necessary_container_ids = ["GTM-NFKJG5GC","GTM-W53MQQV4"];
+    const uoe_gtm_advertising_container_ids = ["GTM-TFH7FXR","GTM-WHQZZ56","GTM-P8ZBCXN"];
+    const uoe_gtm_performance_container_ids = ["GTM-K98J2SB","GTM-TQN45VX","GTM-5P5K4D2"];
+    // Necessary containers are always active.
+    uoe_gtm_necessary_container_ids.forEach(function(container_id) {
+      create_gtm_script_tag(container_id, 'necessary');
+    });
+    init_gtm();
+    document.addEventListener('changed.uoe.consent', function (event) {
+      switch (event.allowedList) {
+      case 'advertising,necessary,performance':
+        uoe_gtm_advertising_container_ids.forEach(function(container_id) {
+          create_gtm_script_tag(container_id, 'advertising');
+        });
+        uoe_gtm_performance_container_ids.forEach(function(container_id) {
+          create_gtm_script_tag(container_id, 'performance');
+        });
+        break
+      case 'necessary,performance':
+        uoe_gtm_advertising_container_ids.forEach(function(container_id) {
+          create_gtm_script_tag(container_id, 'performance');
+        });
+        break
+      case 'advertising,necessary':
+        uoe_gtm_performance_container_ids.forEach(function(container_id) {
+          create_gtm_script_tag(container_id, 'advertising');
+        });
+        break
+      }
+    })
+    function create_gtm_script_tag(container_id, container_name) {
+      var f = document.getElementsByTagName('script')[0];
+      var j = document.createElement('script');
+      j.async = true;
+      j.className = 'uoe-edgel-gtm-container-script';
+      j.id = 'uoe_edgel_gtm_' + container_name + '_' + container_id;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + container_id;
+      f.parentNode.insertBefore(j, f);
+      init_gtm();
+    }
+    function init_gtm() {
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+    }
+  </script>
+<link rel="icon" href="/themes/upstream/wpp_theme/images/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <title>Doctoral College | Doctoral College</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_tRmH9YMITTy5LHSq6uhRZNGTTm13pqe0pEuID5ZJedU.css?delta=0&amp;language=en&amp;theme=wpp_theme&amp;include=eJxNy0EOxCAIAMAP2fqkBpWoCS1EoA2_796210lGQw3PXEAxPSKHDTwxd-IC9AHCDjU-gK0jbYUcN7_mjUunRRJY0BfI0NyWC9D-l90v8UJTB7ZEEOx2tKmVfzmyPVyZXoigOCM" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_HSO3ggqZOPh_y3DfSCnDAs4U-yGKb9K2ul3snPGrcYU.css?delta=1&amp;language=en&amp;theme=wpp_theme&amp;include=eJxNy0EOxCAIAMAP2fqkBpWoCS1EoA2_796210lGQw3PXEAxPSKHDTwxd-IC9AHCDjU-gK0jbYUcN7_mjUunRRJY0BfI0NyWC9D-l90v8UJTB7ZEEOx2tKmVfzmyPVyZXoigOCM" />
+
+      
+</head>
+<body class="page-node--homepage">
+<a href="#main-content" class="skip-link">
+  Skip to main content
+</a>
+
+  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <!-- Google Tag Manager (noscript) service (necessary, service)-->
+<noscript>
+      <iframe
+        id="uoe_edgel_gtm_noscript_GTM-NFKJG5GC"
+        class="uoe-edgel-gtm-container-noscript"
+        src="https://www.googletagmanager.com/ns.html?id=GTM-NFKJG5GC"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+    ></iframe>
+      <iframe
+        id="uoe_edgel_gtm_noscript_ GTM-W53MQQV4"
+        class="uoe-edgel-gtm-container-noscript"
+        src="https://www.googletagmanager.com/ns.html?id= GTM-W53MQQV4"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+    ></iframe>
+      <iframe
+        id="uoe_edgel_gtm_noscript_"
+        class="uoe-edgel-gtm-container-noscript"
+        src="https://www.googletagmanager.com/ns.html?id="
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+    ></iframe>
+  </noscript>
+<!-- End Google Tag Manager (noscript) (necessary, service) -->
+
+<header role="banner" class="masthead">
+  <div class="container-masthead">
+    <div class="row">
+      <div class="col-md-7 col-lg-8">
+        <a href="https://www.ed.ac.uk/">
+          <img class="masthead-logo" src="/themes/upstream/wpp_theme/images/logo.png" alt="The University of Edinburgh home">
+        </a>
+      </div>
+              <div class="col-md-5 col-lg-4">
+          <div class="masthead-text">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="https://www.ed.ac.uk/schools-departments">Schools &amp; departments</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.myed.ed.ac.uk/">MyEd</a>
+              </li>
+            </ul>
+          </div>
+          <div role="search" class="masthead-search">
+            <form action="https://search.ed.ac.uk/" method="get">
+              <div class="input-group input-group-lg">
+                <input type="search" aria-label="Input your search term" placeholder="Search" class="form-control"
+                       data-bs-items="4" data-provide="uoe-search" name="q" autocomplete="off" spellcheck="true"
+                       dir="auto"/>
+                <button class="btn btn-search" type="submit">
+                  <span class="visually-hidden">Submit search</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+          </div>
+  </div>
+  
+  
+          <div class="masthead-hero">
+      <div class="masthead-banner">
+        <picture>
+                  <source srcset="/sites/default/files/styles/banner_1500x275/public/2023-12/ed34_large_skyline_1500_275.jpg?itok=m6OKiHnh 1x" media="only screen and (min-width: 1200px)" type="image/jpeg" width="1500" height="275"/>
+              <source srcset="/sites/default/files/styles/banner_1200x220/public/2023-12/ed34_large_skyline_1500_275.jpg?itok=pxkabfrW 1x" media="all and (min-width: 992px)" type="image/jpeg" width="1200" height="220"/>
+              <source srcset="/sites/default/files/styles/banner_992x182/public/2023-12/ed34_large_skyline_1500_275.jpg?itok=YDqJ4f_6 1x" media="all and (min-width: 768px)" type="image/jpeg" width="992" height="182"/>
+              <source srcset="/sites/default/files/styles/banner_768x141/public/2023-12/ed34_large_skyline_1500_275.jpg?itok=dR469Ilj 1x" media="all and (min-width: 576px)" type="image/jpeg" width="768" height="141"/>
+                  <img class="masthead-hero-image" src="/sites/default/files/styles/banner_315x70/public/2023-12/ed34_large_skyline_1500_275.jpg?itok=YsvELpKl" width="315" height="70" alt="Decorative image of the Edinburgh Old Town skyline." loading="lazy" typeof="foaf:Image" />
+
+  </picture>
+
+
+          </div>
+  
+  <div class="masthead-title">
+          <span class="h1">Doctoral College</span>
+            </div>
+</div>
+
+  
+      <div class="navbar-light bg-white uoe-mega-menu">
+        <div>
+    <nav class="uoe-nav navbar navbar-expand-md py-0 uoe-mega-menu-block" role="navigation"
+     aria-labelledby="navbarDropdown" id="block-subsitemenu">
+            
+  <h2 class="visually-hidden" id="block-subsitemenu-menu">Subsite menu</h2>
+  
+
+    <div class="container-fluid navbar-light bg-white uoe-mega-menu flex-wrap justify-content-start">
+            
+  
+    
+<ul data-block="nav_main" class="navbar-nav me-auto ps-lg-0">
+
+  
+        
+                                          
+       
+            
+          <li class="nav-item dropdown position-static menu-item--active-trail">
+
+            
+                          <a href="/doctoral-college" class="nav-link dropdown-toggle px-3 text-dark level-1 is-active" data-drupal-link-system-path="node/140566">            <i class="bi-house-door-fill" alt="Home" title="Back to homepage"></i><span class="visually-hidden">Home</span>
+          </a>
+
+            
+          
+          </li>
+        
+                        
+       
+            
+          <li class="nav-item dropdown position-static menu-item--expanded">
+
+            
+            
+              <a href="/about" class="nav-link dropdown-toggle px-3 text-dark level-1" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown" data-drupal-link-system-path="node/140567">          About us
+        </a>
+
+            <div class="dropdown-menu w-100 container">
+              <div class="container mega-dropdown">
+                <div class="row my-md-2">
+                  <div class="col">
+                    <ul>
+                      <li><a class="dropdown-item text-wrap text-brand overview-link" href="/about">          About us
+        <i class="bi-chevron-right" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                
+  
+    
+  <ul>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 my-md-2 menu-section">
+
+      
+        
+                        
+       
+            <div class="col mb-md-5 menu-col px-0">
+              <ul>
+
+                                <li>
+
+                  
+                                      <a  class="dropdown-item text-wrap text-dark fw-bold level-2" href="/about/vision-strategy">          Vision and strategy
+        </a>
+
+                                  </li>
+              </ul>
+            </div>
+
+          
+          </li>
+        
+                        
+       
+            <div class="col mb-md-5 menu-col px-0">
+              <ul>
+
+                                <li>
+
+                  
+                                      <a  class="dropdown-item text-wrap text-dark fw-bold level-2" href="/about/people-structure">          People and structure
+        </a>
+
+                                  </li>
+              </ul>
+            </div>
+
+          
+          </li>
+        
+                        
+       
+            <div class="col mb-md-5 menu-col px-0">
+              <ul>
+
+                                <li>
+
+                  
+                                      <a  class="dropdown-item text-wrap text-dark fw-bold level-2" href="/about/contact-us">          Get involved and get in touch
+        </a>
+
+                                  </li>
+              </ul>
+            </div>
+
+          
+          </li>
+              </ul>
+            
+
+            
+          
+          </li>
+        
+                        
+       
+            
+          <li class="nav-item dropdown position-static menu-item--expanded">
+
+            
+            
+              <a href="/pgr-development-training" class="nav-link dropdown-toggle px-3 text-dark level-1" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown" data-drupal-link-system-path="node/140569">          Personal and professional development and training
+        </a>
+
+            <div class="dropdown-menu w-100 container">
+              <div class="container mega-dropdown">
+                <div class="row my-md-2">
+                  <div class="col">
+                    <ul>
+                      <li><a class="dropdown-item text-wrap text-brand overview-link" href="/pgr-development-training">          Personal and professional development and training
+        <i class="bi-chevron-right" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                
+  
+    
+  <ul>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 my-md-2 menu-section">
+
+      
+        
+                        
+       
+            <div class="col mb-md-5 menu-col px-0">
+              <ul>
+
+                                <li>
+
+                  
+                                      <a  class="dropdown-item text-wrap text-dark fw-bold level-2" href="/pgr-development-training/support">          Support services and initiatives
+        </a>
+
+                                  </li>
+              </ul>
+            </div>
+
+          
+          </li>
+              </ul>
+            
+
+            
+          
+          </li>
+        
+                        
+       
+            
+          <li class="nav-item dropdown position-static">
+
+            
+                          <a href="/wellbeing-community-representation" class="nav-link dropdown-toggle px-3 text-dark level-1" data-drupal-link-system-path="node/120823">          Researcher Representation and Community
+        </a>
+
+            
+          
+          </li>
+        
+                        
+       
+            
+          <li class="nav-item dropdown position-static">
+
+            
+                          <a href="/funding-scholarships" class="nav-link dropdown-toggle px-3 text-dark level-1" data-drupal-link-system-path="node/121150">          Funding and scholarships
+        </a>
+
+            
+          
+          </li>
+        
+                        
+       
+            
+          <li class="nav-item dropdown position-static menu-item--expanded">
+
+            
+            
+              <a href="/doctoral-training-centres" class="nav-link dropdown-toggle px-3 text-dark level-1" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown" data-drupal-link-system-path="node/140568">          Doctoral Training Centres
+        </a>
+
+            <div class="dropdown-menu w-100 container">
+              <div class="container mega-dropdown">
+                <div class="row my-md-2">
+                  <div class="col">
+                    <ul>
+                      <li><a class="dropdown-item text-wrap text-brand overview-link" href="/doctoral-training-centres">          Doctoral Training Centres
+        <i class="bi-chevron-right" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                
+  
+    
+  <ul>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 my-md-2 menu-section">
+
+      
+        
+                        
+       
+            <div class="col mb-md-5 menu-col px-0">
+              <ul>
+
+                                <li>
+
+                  
+                                      <a  class="dropdown-item text-wrap text-dark fw-bold level-2" href="/doctoral-training-centres/about">          About the Centres and support available
+        </a>
+
+                                  </li>
+              </ul>
+            </div>
+
+          
+          </li>
+        
+                        
+       
+            <div class="col mb-md-5 menu-col px-0">
+              <ul>
+
+                                <li>
+
+                  
+                                      <a  class="dropdown-item text-wrap text-dark fw-bold level-2" href="/doctoral-training-centres/cahss">          College of Arts, Humanities and Social Sciences
+        </a>
+
+                                  </li>
+              </ul>
+            </div>
+
+          
+          </li>
+        
+                        
+       
+            <div class="col mb-md-5 menu-col px-0">
+              <ul>
+
+                                <li>
+
+                  
+                                      <a  class="dropdown-item text-wrap text-dark fw-bold level-2" href="/doctoral-training-centres/cmvm">          College of Medicine and Veterinary Medicine
+        </a>
+
+                                  </li>
+              </ul>
+            </div>
+
+          
+          </li>
+        
+                        
+       
+            <div class="col mb-md-5 menu-col px-0">
+              <ul>
+
+                                <li>
+
+                  
+                                      <a  class="dropdown-item text-wrap text-dark fw-bold level-2" href="/doctoral-training-centres/cse">          College of Science and Engineering
+        </a>
+
+                                  </li>
+              </ul>
+            </div>
+
+          
+          </li>
+              </ul>
+            
+
+            
+          
+          </li>
+        
+                        
+       
+            
+          <li class="nav-item dropdown position-static">
+
+            
+                          <a href="/pgr-supervision" class="nav-link dropdown-toggle px-3 text-dark level-1" data-drupal-link-system-path="node/121152">          Support for PGR supervision
+        </a>
+
+            
+          
+          </li>
+              </ul>
+            
+
+
+
+      </div>
+</nav>
+<nav class="uoe-nav navbar navbar-expand-md py-0 uoe-mega-menu-block" role="navigation"
+     aria-labelledby="block-subsitemobilemenu-menu" id="block-subsitemobilemenu">
+            
+  <h2 class="visually-hidden" id="block-subsitemobilemenu-menu">Subsite mobile menu</h2>
+  
+
+    <div class="container-fluid navbar-light bg-white uoe-mega-menu flex-wrap justify-content-start">
+          
+  
+  
+    
+<ul data-block="nav_main subsitemobilemenu" class="uoe-nav navbar-nav me-auto ps-lg-0 collapse" id="uoe-388973">
+  
+    
+        
+    
+    
+    <li class="menu-item--active-trail">
+
+      
+              <a  class="menu-item--active-trail uoe-nav-link collapsed uoe-nav-link-root side-level-1" href="/doctoral-college">      Home
+    </a>
+      
+      
+      
+        
+    
+    
+    <li class="menu-item--expanded">
+
+      
+      
+                <div class="mob-menu-link-btn-group btn-group d-flex" role="group">
+          <a  class="menu-item--expanded uoe-nav-link collapsed uoe-nav-link-root side-level-1 has-children mob-menu-link w-100"
+            href="/about">
+                  About us
+    
+          </a>
+
+                              <button type="button" class="btn btn-lg dropdown-toggle-split uoe-nav-link-btn-root"
+                  data-bs-toggle="collapse" data-bs-target="#menu-item-1716920486"
+                  aria-expanded="false"
+                  aria-label="Expand submenu">
+            <i class="bi-plus" aria-hidden="true"></i>
+            <span class="visually-hidden">Expand/collapse submenu</span>
+          </button>
+        </div>
+        <div class="collapse " id="menu-item-1716920486">
+          <ul class="btn-toggle-nav">
+              
+  
+      <ul>
+    
+    
+        
+    
+      
+    <li class="side-level-2 collapsed">
+
+                    <a  class="side-level-2 collapsed uoe-nav-link uoe-nav-link-ancestor" href="/about/vision-strategy">      Vision and strategy
+    </a>
+
+      
+      
+      
+        
+    
+      
+    <li class="side-level-2 collapsed">
+
+                    <a  class="side-level-2 collapsed uoe-nav-link uoe-nav-link-ancestor" href="/about/people-structure">      People and structure
+    </a>
+
+      
+      
+      
+        
+    
+      
+    <li class="side-level-2 collapsed">
+
+                    <a  class="side-level-2 collapsed uoe-nav-link uoe-nav-link-ancestor" href="/about/contact-us">      Get involved and get in touch
+    </a>
+
+      
+      
+        </ul>
+    
+          </ul>
+        </div>
+      
+      
+      
+        
+    
+    
+    <li class="menu-item--expanded">
+
+      
+      
+                <div class="mob-menu-link-btn-group btn-group d-flex" role="group">
+          <a  class="menu-item--expanded uoe-nav-link collapsed uoe-nav-link-root side-level-1 has-children mob-menu-link w-100"
+            href="/pgr-development-training">
+                  Personal and professional development and training
+    
+          </a>
+
+                              <button type="button" class="btn btn-lg dropdown-toggle-split uoe-nav-link-btn-root"
+                  data-bs-toggle="collapse" data-bs-target="#menu-item-1183420728"
+                  aria-expanded="false"
+                  aria-label="Expand submenu">
+            <i class="bi-plus" aria-hidden="true"></i>
+            <span class="visually-hidden">Expand/collapse submenu</span>
+          </button>
+        </div>
+        <div class="collapse " id="menu-item-1183420728">
+          <ul class="btn-toggle-nav">
+              
+  
+      <ul>
+    
+    
+        
+    
+      
+    <li class="side-level-2 collapsed">
+
+                    <a  class="side-level-2 collapsed uoe-nav-link uoe-nav-link-ancestor" href="/pgr-development-training/support">      Support services and initiatives
+    </a>
+
+      
+      
+        </ul>
+    
+          </ul>
+        </div>
+      
+      
+      
+        
+    
+    
+    <li>
+
+      
+              <a  class="uoe-nav-link collapsed uoe-nav-link-root side-level-1" href="/wellbeing-community-representation">      Researcher Representation and Community
+    </a>
+      
+      
+      
+        
+    
+    
+    <li>
+
+      
+              <a  class="uoe-nav-link collapsed uoe-nav-link-root side-level-1" href="/funding-scholarships">      Funding and scholarships
+    </a>
+      
+      
+      
+        
+    
+    
+    <li class="menu-item--expanded">
+
+      
+      
+                <div class="mob-menu-link-btn-group btn-group d-flex" role="group">
+          <a  class="menu-item--expanded uoe-nav-link collapsed uoe-nav-link-root side-level-1 has-children mob-menu-link w-100"
+            href="/doctoral-training-centres">
+                  Doctoral Training Centres
+    
+          </a>
+
+                              <button type="button" class="btn btn-lg dropdown-toggle-split uoe-nav-link-btn-root"
+                  data-bs-toggle="collapse" data-bs-target="#menu-item-1441415267"
+                  aria-expanded="false"
+                  aria-label="Expand submenu">
+            <i class="bi-plus" aria-hidden="true"></i>
+            <span class="visually-hidden">Expand/collapse submenu</span>
+          </button>
+        </div>
+        <div class="collapse " id="menu-item-1441415267">
+          <ul class="btn-toggle-nav">
+              
+  
+      <ul>
+    
+    
+        
+    
+      
+    <li class="side-level-2 collapsed">
+
+                    <a  class="side-level-2 collapsed uoe-nav-link uoe-nav-link-ancestor" href="/doctoral-training-centres/about">      About the Centres and support available
+    </a>
+
+      
+      
+      
+        
+    
+      
+    <li class="side-level-2 collapsed">
+
+                    <a  class="side-level-2 collapsed uoe-nav-link uoe-nav-link-ancestor" href="/doctoral-training-centres/cahss">      College of Arts, Humanities and Social Sciences
+    </a>
+
+      
+      
+      
+        
+    
+      
+    <li class="side-level-2 collapsed">
+
+                    <a  class="side-level-2 collapsed uoe-nav-link uoe-nav-link-ancestor" href="/doctoral-training-centres/cmvm">      College of Medicine and Veterinary Medicine
+    </a>
+
+      
+      
+      
+        
+    
+      
+    <li class="side-level-2 collapsed">
+
+                    <a  class="side-level-2 collapsed uoe-nav-link uoe-nav-link-ancestor" href="/doctoral-training-centres/cse">      College of Science and Engineering
+    </a>
+
+      
+      
+        </ul>
+    
+          </ul>
+        </div>
+      
+      
+      
+        
+    
+    
+    <li>
+
+      
+              <a  class="uoe-nav-link collapsed uoe-nav-link-root side-level-1" href="/pgr-supervision">      Support for PGR supervision
+    </a>
+      
+      
+        </ul>
+    
+
+
+      </div>
+</nav>
+
+  </div>
+
+    </div>
+  </header>
+
+<div class="container-content">
+  <div class="row justify-content-lg-center">
+                
+    <div class="col-12 col-lg-9">
+            <div class="row">
+        <div class="col-12">
+            <div>
+    <div id="block-wpp-theme-breadcrumbs">
+  
+    
+        <nav role="navigation" aria-labelledby="system-breadcrumb" aria-label="breadcrumb">
+    <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
+    <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                      <a href="https://www.ed.ac.uk/">Home</a>
+                  </li>
+              <li class="breadcrumb-item">
+                      <a href="/">Doctoral College</a>
+                  </li>
+          </ol>
+  </nav>
+
+  </div>
+
+  </div>
+
+        </div>
+      </div>
+            <div class="row">
+        <div class="col-12">
+          <main class="main-content" id="main-content">
+                                        <div>
+    <div data-drupal-messages-fallback class="hidden"></div><div id="block-wpp-theme-content">
+  
+    
+      <article about="/doctoral-college">
+
+  
+    
+
+  
+  <div>
+    
+      <div>
+      <div class="grid row row-cols-1">
+                  <div class="col">
+            <div>
+
+
+
+    <div class="card card-low">
+        
+            
+                
+                                    <div class="card-header">
+                        <h3 class="card-title">
+                                                            
+            <div>What is the Doctoral College? </div>
+      
+                                                    </h3>
+                    </div>
+                                                    <div class="card-body">
+                        <p class="card-text">
+            <div><p>The University of Edinburgh Doctoral College is a coordinating structure for all postgraduate researchers, supervisors and relevant staff at the university, designed to enhance and support the postgraduate student experience.&nbsp;</p><p>For information and resources for research staff, please see the Research Staff Pages:&nbsp; <a href="https://www.ed.ac.uk/researchers">https://www.ed.ac.uk/researchers</a></p><p>PhD stories</p><p>Our extraordinary PhD students come from all walks of life and all backgrounds. In this collection of short videos, some of them share their experiences -&nbsp; <a href="https://www.youtube.com/playlist?list=PLBcSHVMkBQZi-XiIfhNEoKF_WER63rFxH">PhD Stories</a></p></div>
+      </p>
+                    </div>
+                                <div class="card-footer">
+                                                        </div>
+
+            
+            </div>
+</div>
+          </div>
+                  <div class="col">
+            <div>  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
+            <div class="layout layout--twocol row">
+    
+          <div  class="layout__region layout__region--first">
+        
+
+
+
+    <div class="card card-medium">
+        
+            
+                                    <div class="card-header">
+                        <h3 class="card-title">
+                                                            <a href="/about/vision-strategy">
+            <div>Vision and strategy </div>
+      </a>
+                                                    </h3>
+                    </div>
+                
+                                                                            <picture>
+                        <source srcset="/sites/default/files/styles/card_image_top/public/thumbnails/image/ed9_edinburgh_city_garden_900_400.jpg?itok=-Uf60kXK" media="only screen and (min-width: 992px)"/>
+                        <source srcset="/sites/default/files/styles/card_image_top/public/thumbnails/image/ed9_edinburgh_city_garden_900_400.jpg?itok=-Uf60kXK" media="(min-width: 0px)"/>
+                                                    <a href="/about/vision-strategy">
+                                <img class="card-img-top" src="/sites/default/files/styles/card_image_top/public/thumbnails/image/ed9_edinburgh_city_garden_900_400.jpg?itok=-Uf60kXK" alt="Ed9_Edinburgh_City_Centre_Garden_900_400"/>
+                            </a>
+                        
+                    </picture>
+                
+                                    <div class="card-body">
+                        <p class="card-text">
+            <div><p>The purpose of the Doctoral College, our vision, strategic objectives and our commitment to the improvement of postgraduate research cultures</p></div>
+      </p>
+                    </div>
+                <div class="card-footer">
+                                                                        </div>
+
+            
+            </div>
+
+      </div>
+    
+          <div  class="layout__region layout__region--second">
+        
+
+
+
+    <div class="card card-medium">
+        
+            
+                                    <div class="card-header">
+                        <h3 class="card-title">
+                                                            <a href="/about/people-structure">
+            <div>People and structure </div>
+      </a>
+                                                    </h3>
+                    </div>
+                
+                                                                            <picture>
+                        <source srcset="/sites/default/files/styles/card_image_top/public/thumbnails/image/uni_7_library_research_suite_900_400.jpg?itok=XKLRhT07" media="only screen and (min-width: 992px)"/>
+                        <source srcset="/sites/default/files/styles/card_image_top/public/thumbnails/image/uni_7_library_research_suite_900_400.jpg?itok=XKLRhT07" media="(min-width: 0px)"/>
+                                                    <a href="/about/people-structure">
+                                <img class="card-img-top" src="/sites/default/files/styles/card_image_top/public/thumbnails/image/uni_7_library_research_suite_900_400.jpg?itok=XKLRhT07" alt="UNI_7_library_research_suite_900_400"/>
+                            </a>
+                        
+                    </picture>
+                
+                                    <div class="card-body">
+                        <p class="card-text">
+            <div><p>About the Doctoral College leadership and management structure, and the wider Doctoral College team.</p></div>
+      </p>
+                    </div>
+                <div class="card-footer">
+                                                                        </div>
+
+            
+            </div>
+
+      </div>
+    
+      </div>
+
+      </div>
+</div>
+          </div>
+                  <div class="col">
+            <div>  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
+            <div class="layout layout--twocol row">
+    
+          <div  class="layout__region layout__region--first">
+        
+
+
+
+    <div class="card card-low">
+        
+            
+                
+                                    <div class="card-header">
+                        <h3 class="card-title">
+                                                            <a href="/personal-and-professional-development-and-training">
+            <div>Personal and professional development and training </div>
+      </a>
+                                                    </h3>
+                    </div>
+                                                    <div class="card-body">
+                        <p class="card-text">
+            <div><p>Information about professional, careers and personal development training and opportunities for&nbsp;<abbr title="University of Edinburgh">UoE</abbr>&nbsp;<abbr title="postgraduate research">PGR</abbr>&nbsp;students.</p></div>
+      </p>
+                    </div>
+                                <div class="card-footer">
+                                                        </div>
+
+            
+            </div>
+
+      </div>
+    
+          <div  class="layout__region layout__region--second">
+        
+
+
+
+    <div class="card card-low">
+        
+            
+                
+                                    <div class="card-header">
+                        <h3 class="card-title">
+                                                            <a href="/wellbeing-community-representation">
+            <div>Researcher Representation and Community </div>
+      </a>
+                                                    </h3>
+                    </div>
+                                                    <div class="card-body">
+                        <p class="card-text">
+            <div><p>Information on student representation and community</p></div>
+      </p>
+                    </div>
+                                <div class="card-footer">
+                                                        </div>
+
+            
+            </div>
+
+      </div>
+    
+      </div>
+
+      </div>
+</div>
+          </div>
+                  <div class="col">
+            <div>  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
+            <div class="layout layout--twocol row">
+    
+          <div  class="layout__region layout__region--first">
+        
+
+
+
+    <div class="card card-low">
+        
+            
+                
+                                    <div class="card-header">
+                        <h3 class="card-title">
+                                                            <a href="/pgr-supervision">
+            <div>Support for PGR supervision </div>
+      </a>
+                                                    </h3>
+                    </div>
+                                                    <div class="card-body">
+                        <p class="card-text">
+            <div><p>Information and guidance for staff who supervise research students.</p></div>
+      </p>
+                    </div>
+                                <div class="card-footer">
+                                                        </div>
+
+            
+            </div>
+
+      </div>
+    
+          <div  class="layout__region layout__region--second">
+        
+
+
+
+    <div class="card card-low">
+        
+            
+                
+                                    <div class="card-header">
+                        <h3 class="card-title">
+                                                            <a href="/doctoral-training-centres">
+            <div>Doctoral training centres </div>
+      </a>
+                                                    </h3>
+                    </div>
+                                                    <div class="card-body">
+                        <p class="card-text">
+            <div><p>Information on funded PhD training programmes and support for directors and administrators of these programmes.</p></div>
+      </p>
+                    </div>
+                                <div class="card-footer">
+                                                        </div>
+
+            
+            </div>
+
+      </div>
+    
+          <div  class="layout__region layout__region--bottom">
+        <div class="grid row"><div class="col">
+
+
+
+    <div class="card card-low">
+        
+            
+                
+                                    <div class="card-header">
+                        <h3 class="card-title">
+                                                            
+            <div>Essential information for postgraduate researchers </div>
+      
+                                                    </h3>
+                    </div>
+                                                    <div class="card-body">
+                        <p class="card-text">
+            <div><p><a data-uoe-button="info-sign" href="https://live-uoe-cmvm-doctoral-college.pantheonsite.io/sites/default/files/2022-10/Code%20of%20Practice%20for%20Supervisors%20and%20Research%20Students.pdf">Code of Practice for Supervisors and Research Students&nbsp;(PDF)</a></p>
+
+<p><a data-uoe-button="info-sign" href="https://www.ed.ac.uk/arts-humanities-soc-sci/research-students">College of Arts, Humanities and Social Sciences - PGR pages</a></p>
+
+<p><a data-uoe-button="info-sign" href="https://www.ed.ac.uk/medicine-vet-medicine/staff-and-current-students">College of Medicine and Veterinary Medicine - PGR pages</a></p>
+
+<p><a data-uoe-button="info-sign" href="https://edin.ac/3pXtrEo">College of Science and Engineering</a>&nbsp;(EASE log in required)</p>
+
+<p><a data-uoe-button="info-sign" href="https://www.ed.ac.uk/studying/postgraduate">Information for prospective postgraduate research students</a></p>
+
+<p><a data-uoe-button="info-sign" href="https://www.ed.ac.uk/students/new-students">New student pages</a></p>
+
+<p><a data-uoe-button="info-sign" href="https://www.ed.ac.uk/studying/postgraduate/degrees%20">Postgraduate study degree finder</a></p></div>
+      </p>
+                    </div>
+                                <div class="card-footer">
+                                                        </div>
+
+            
+            </div>
+</div></div>
+      </div>
+      </div>
+
+      </div>
+</div>
+          </div>
+              </div>
+    </div>
+  
+            <div>
+        <p class="article-published">This article was published on
+          <time datetime="2023-12-07T20:44:34+00:00">2023-12-07</time>
+
+        </p>
+      </div>
+      
+  </div>
+
+</article>
+
+  </div>
+
+  </div>
+
+                                  </main>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <footer>
+  
+
+  <div class="footer-discover">
+    <h3 class="footer-discover-heading">
+      The University of Edinburgh
+    </h3>
+  </div>
+  <div class="footer">
+    <div class="container-footer">
+      <div class="row">
+        <div class="col-md-4">
+          <ul class="list-unstyled">
+            <li><a href="https://www.ed.ac.uk/about/website/website-terms-conditions">Terms &amp; conditions</a></li>
+            <li><a href="https://edin.ac/privacy-information">Privacy &amp; cookies</a></li>
+            <li><a href="https://www.ed.ac.uk/university-secretary-group/complaint-handling-procedure">Complaints procedure</a></li>
+            <li><a href="https://www.ed.ac.uk/sustainability/what-we-do/supply-chains/initiatives/modern-slavery/statement">Modern slavery</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-unstyled">
+            <li><a href="https://edin.ac/accessibility-statement">Website accessibility</a></li>
+            <li><a href="https://www.ed.ac.uk/about/website/freedom-information">Freedom of information publication scheme</a></li>
+            <li><a href="https://www.ed.ac.uk/data-protection">Data protection / Records Management</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-6 justify-content-end">
+          <a href="https://www.ed.ac.uk/about/mission-governance/affiliations">
+            <img class="img-fluid" alt="University affiliations" src="/themes/upstream/wpp_theme/images/footer-affiliations.png">
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 order-md-2">
+          <p class="float-end">
+            <a class="btn btn-brand btn-sm" href="https://www.myed.ed.ac.uk/">
+              MyEd login <i class="bi bi-chevron-right"></i>
+            </a>
+          </p>
+        </div>
+        <div class="col-md-8 order-md-1">
+          <p>
+            The University of Edinburgh is a charitable body, registered in Scotland, with registration number SC005336, VAT Registration Number GB&nbsp;592&nbsp;9507&nbsp;00, and is acknowledged by the UK authorities as a “<a href="https://www.gov.uk/guidance/recognised-uk-degrees">Recognised body</a>” which has been granted degree awarding powers.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-footer-copyright">
+    Unless explicitly stated otherwise, all material is copyright &copy; The University of Edinburgh 2024.
+  </div>
+  <div class="container-footer">
+      <div>
+    <nav role="navigation" aria-labelledby="block-useraccountmenu-menu" id="block-useraccountmenu">
+            
+  <h2 class="visually-hidden" id="block-useraccountmenu-menu">User account menu</h2>
+  
+
+        
+    
+                                        
+        <a class="footer-login-link" href="/user/login?destination=/doctoral-college">
+          <abbr>CMS</abbr> login
+          <svg class="icon">
+            <use xlink:href="#edgel-chevron-right"></use>
+          </svg>
+        </a>
+      
+  
+
+
+  </nav>
+
+  </div>
+
+  </div>
+</footer>
+
+  </div>
+
+
+<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/140566","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"clientside_validation_jquery":{"validate_all_ajax_forms":2,"force_validate_on_blur":false,"messages":{"required":"This field is required.","remote":"Please fix this field.","email":"Please enter a valid email address.","url":"Please enter a valid URL.","date":"Please enter a valid date.","dateISO":"Please enter a valid date (ISO).","number":"Please enter a valid number.","digits":"Please enter only digits.","equalTo":"Please enter the same value again.","maxlength":"Please enter no more than {0} characters.","minlength":"Please enter at least {0} characters.","rangelength":"Please enter a value between {0} and {1} characters long.","range":"Please enter a value between {0} and {1}.","max":"Please enter a value less than or equal to {0}.","min":"Please enter a value greater than or equal to {0}.","step":"Please enter a multiple of {0}."}},"csp":{"nonce":"Je41wMCGj3SUZCJ10AHpAg"},"user":{"uid":0,"permissionsHash":"9705c446eacf48bcb06013cf47b4c6c065478fc6495446da377a3cb16bd1300d"}}</script>
+<script src="/sites/default/files/js/js_nN4WanP8MBx87-pOIyZRJwP5PfSEarHJ2nFX0sR1GBQ.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=wpp_theme&amp;include=eJxNy0EOxCAIAMAP2fqkBpWoCS1EoA2_796210lGQw3PXEAxPSKHDTwxd-IC9AHCDjU-gK0jbYUcN7_mjUunRRJY0BfI0NyWC9D-l90v8UJTB7ZEEOx2tKmVfzmyPVyZXoigOCM"></script>
+<script src="/libraries/uoe--edgel/dist/js/edgel.bundle.min.js?slr1o5"></script>
+<script src="/sites/default/files/js/js_mErxlltOVMsYMK9AGdpqxFFK9fCi39VRRpX8rQUTngY.js?scope=footer&amp;delta=2&amp;language=en&amp;theme=wpp_theme&amp;include=eJxNy0EOxCAIAMAP2fqkBpWoCS1EoA2_796210lGQw3PXEAxPSKHDTwxd-IC9AHCDjU-gK0jbYUcN7_mjUunRRJY0BfI0NyWC9D-l90v8UJTB7ZEEOx2tKmVfzmyPVyZXoigOCM"></script>
+
+</body>
+</html>

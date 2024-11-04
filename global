@@ -1,0 +1,1649 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+<head>
+  <meta charset="utf-8" />
+<link rel="shortlink" href="https://global.ed.ac.uk/" />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://global.ed.ac.uk/" />
+<meta property="og:site_name" content="The University of Edinburgh" />
+<meta property="og:url" content="https://global.ed.ac.uk/node/65357" />
+<meta property="og:title" content="Edinburgh Global" />
+<meta property="og:description" content=" " />
+<meta property="og:image" content="https://global.ed.ac.uk/themes/upstream/wpp_theme/images/uoe-logo-centred-black.png" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script>
+    const uoe_gtm_necessary_container_ids = ["GTM-NFKJG5GC","GTM-W53MQQV4"];
+    const uoe_gtm_advertising_container_ids = ["GTM-TFH7FXR","GTM-WHQZZ56","GTM-P8ZBCXN"];
+    const uoe_gtm_performance_container_ids = ["GTM-K98J2SB","GTM-TQN45VX","GTM-5P5K4D2"];
+    // Necessary containers are always active.
+    uoe_gtm_necessary_container_ids.forEach(function(container_id) {
+      create_gtm_script_tag(container_id, 'necessary');
+    });
+    init_gtm();
+    document.addEventListener('changed.uoe.consent', function (event) {
+      switch (event.allowedList) {
+      case 'advertising,necessary,performance':
+        uoe_gtm_advertising_container_ids.forEach(function(container_id) {
+          create_gtm_script_tag(container_id, 'advertising');
+        });
+        uoe_gtm_performance_container_ids.forEach(function(container_id) {
+          create_gtm_script_tag(container_id, 'performance');
+        });
+        break
+      case 'necessary,performance':
+        uoe_gtm_advertising_container_ids.forEach(function(container_id) {
+          create_gtm_script_tag(container_id, 'performance');
+        });
+        break
+      case 'advertising,necessary':
+        uoe_gtm_performance_container_ids.forEach(function(container_id) {
+          create_gtm_script_tag(container_id, 'advertising');
+        });
+        break
+      }
+    })
+    function create_gtm_script_tag(container_id, container_name) {
+      var f = document.getElementsByTagName('script')[0];
+      var j = document.createElement('script');
+      j.async = true;
+      j.className = 'uoe-edgel-gtm-container-script';
+      j.id = 'uoe_edgel_gtm_' + container_name + '_' + container_id;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + container_id;
+      f.parentNode.insertBefore(j, f);
+      init_gtm();
+    }
+    function init_gtm() {
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+    }
+  </script>
+<link rel="icon" href="/themes/upstream/wpp_theme/images/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <title>Edinburgh Global | Global</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_JE5YL01okZSqQ9rTovZ0G8dUbqTk-4l_JzACT_nRU80.css?delta=0&amp;language=en&amp;theme=wpp_theme&amp;include=eJxtyjEOwyAMRuELJWGg90EGfgGSUywbGnH7ZmuGLm_49GzZwOkiGbZLJIyKE65wj8QPYBRK6wHIBbxHntijtlLHJqRUlKSayzqF-PjJMd8yIzeryBvT6nOE3Cz1D3S5URVInYP3wb_u_lmufg9f2BhDFw" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_4HUI6cDS--RtLsJdeapohuZNbUJihGgWcIqMYWG8x9s.css?delta=1&amp;language=en&amp;theme=wpp_theme&amp;include=eJxtyjEOwyAMRuELJWGg90EGfgGSUywbGnH7ZmuGLm_49GzZwOkiGbZLJIyKE65wj8QPYBRK6wHIBbxHntijtlLHJqRUlKSayzqF-PjJMd8yIzeryBvT6nOE3Cz1D3S5URVInYP3wb_u_lmufg9f2BhDFw" />
+
+      
+</head>
+<body class="page-node--homepage node--migrated">
+<a href="#main-content" class="skip-link">
+  Skip to main content
+</a>
+
+  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <!-- Google Tag Manager (noscript) service (necessary, service)-->
+<noscript>
+      <iframe
+        id="uoe_edgel_gtm_noscript_GTM-NFKJG5GC"
+        class="uoe-edgel-gtm-container-noscript"
+        src="https://www.googletagmanager.com/ns.html?id=GTM-NFKJG5GC"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+    ></iframe>
+      <iframe
+        id="uoe_edgel_gtm_noscript_ GTM-W53MQQV4"
+        class="uoe-edgel-gtm-container-noscript"
+        src="https://www.googletagmanager.com/ns.html?id= GTM-W53MQQV4"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+    ></iframe>
+      <iframe
+        id="uoe_edgel_gtm_noscript_"
+        class="uoe-edgel-gtm-container-noscript"
+        src="https://www.googletagmanager.com/ns.html?id="
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+    ></iframe>
+  </noscript>
+<!-- End Google Tag Manager (noscript) (necessary, service) -->
+
+<header role="banner" class="masthead">
+  <div class="container-masthead">
+    <div class="row">
+      <div class="col-md-7 col-lg-8">
+        <a href="https://www.ed.ac.uk/">
+          <img class="masthead-logo" src="/themes/upstream/wpp_theme/images/logo.png" alt="The University of Edinburgh home">
+        </a>
+      </div>
+              <div class="col-md-5 col-lg-4">
+          <div class="masthead-text">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="https://www.ed.ac.uk/schools-departments">Schools &amp; departments</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.myed.ed.ac.uk/">MyEd</a>
+              </li>
+            </ul>
+          </div>
+          <div role="search" class="masthead-search">
+            <form action="https://search.ed.ac.uk/" method="get">
+              <div class="input-group input-group-lg">
+                <input type="search" aria-label="Input your search term" placeholder="Search" class="form-control"
+                       data-bs-items="4" data-provide="uoe-search" name="q" autocomplete="off" spellcheck="true"
+                       dir="auto"/>
+                <button class="btn btn-search" type="submit">
+                  <span class="visually-hidden">Submit search</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+          </div>
+  </div>
+  
+  
+          <div class="masthead-hero">
+      <div class="masthead-banner">
+        <picture>
+                  <source srcset="/sites/default/files/styles/banner_1500x275/public/banner/test_2_banner.jpg?itok=2P5Nv84p 1x" media="only screen and (min-width: 1200px)" type="image/jpeg" width="1500" height="275"/>
+              <source srcset="/sites/default/files/styles/banner_1200x220/public/banner/test_2_banner.jpg?itok=br5hCmij 1x" media="all and (min-width: 992px)" type="image/jpeg" width="1200" height="220"/>
+              <source srcset="/sites/default/files/styles/banner_992x182/public/banner/test_2_banner.jpg?itok=NOMfLFtR 1x" media="all and (min-width: 768px)" type="image/jpeg" width="992" height="182"/>
+              <source srcset="/sites/default/files/styles/banner_768x141/public/banner/test_2_banner.jpg?itok=RtqZmN6A 1x" media="all and (min-width: 576px)" type="image/jpeg" width="768" height="141"/>
+                  <img class="masthead-hero-image" src="/sites/default/files/styles/banner_315x70/public/banner/test_2_banner.jpg?itok=BqJhinth" width="315" height="70" alt="" loading="lazy" typeof="foaf:Image" />
+
+  </picture>
+
+
+          </div>
+  
+  <div class="masthead-title">
+          <span class="h1">Edinburgh Global</span>
+            </div>
+</div>
+
+  
+      <div class="navbar-light bg-white uoe-mega-menu">
+        <div>
+    <nav class="uoe-nav navbar navbar-expand-md py-0 uoe-mega-menu-block" role="navigation"
+     aria-labelledby="navbarDropdown" id="block-subsitemenu">
+            
+  <h2 class="visually-hidden" id="block-subsitemenu-menu">Subsite menu</h2>
+  
+
+    <div class="container-fluid navbar-light bg-white uoe-mega-menu flex-wrap justify-content-start">
+            
+  
+    
+<ul data-block="nav_main" class="navbar-nav me-auto ps-lg-0">
+
+  
+        
+                                          
+       
+            
+          <li class="nav-item dropdown position-static menu-item--active-trail">
+
+            
+                          <a href="/node/65357" class="nav-link dropdown-toggle px-3 text-dark level-1 is-active" data-drupal-link-system-path="node/65357">            <i class="bi-house-door-fill" alt="Home" title="Back to homepage"></i><span class="visually-hidden">Home</span>
+          </a>
+
+            
+          
+          </li>
+        
+                        
+       
+            
+          <li class="nav-item dropdown position-static">
+
+            
+                          <a href="/about-us" class="nav-link dropdown-toggle px-3 text-dark level-1" data-drupal-link-system-path="node/140749">          About us
+        </a>
+
+            
+          
+          </li>
+        
+                        
+       
+            
+          <li class="nav-item dropdown position-static">
+
+            
+                          <a href="/partnerships" class="nav-link dropdown-toggle px-3 text-dark level-1" data-drupal-link-system-path="node/141030">          Partnerships
+        </a>
+
+            
+          
+          </li>
+        
+                        
+       
+            
+          <li class="nav-item dropdown position-static">
+
+            
+                          <a href="/regional-engagement" class="nav-link dropdown-toggle px-3 text-dark level-1" data-drupal-link-system-path="node/152270">          Regional
+        </a>
+
+            
+          
+          </li>
+        
+                        
+       
+            
+          <li class="nav-item dropdown position-static">
+
+            
+                          <a href="/study-and-work-away-service" class="nav-link dropdown-toggle px-3 text-dark level-1" data-drupal-link-system-path="node/15995">          Study and Work Away
+        </a>
+
+            
+          
+          </li>
+        
+                        
+       
+            
+          <li class="nav-item dropdown position-static">
+
+            
+                          <a href="/mastercard-foundation" class="nav-link dropdown-toggle px-3 text-dark level-1" data-drupal-link-system-path="node/69514">          Mastercard
+        </a>
+
+            
+          
+          </li>
+        
+                        
+       
+            
+          <li class="nav-item dropdown position-static">
+
+            
+                          <a href="/education-beyond-borders" class="nav-link dropdown-toggle px-3 text-dark level-1" data-drupal-link-system-path="node/152074">          Education Beyond Borders
+        </a>
+
+            
+          
+          </li>
+        
+                        
+       
+            
+          <li class="nav-item dropdown position-static">
+
+            
+                          <a href="/staff-immigration-service" class="nav-link dropdown-toggle px-3 text-dark level-1" data-drupal-link-system-path="node/80775">          Staff Immigration
+        </a>
+
+            
+          
+          </li>
+        
+                        
+       
+            
+          <li class="nav-item dropdown position-static menu-item--expanded">
+
+            
+            
+              <a href="/events-and-opportunities" class="nav-link dropdown-toggle px-3 text-dark level-1" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown" data-drupal-link-system-path="node/142703">          Events and opportunities
+        </a>
+
+            <div class="dropdown-menu w-100 container">
+              <div class="container mega-dropdown">
+                <div class="row my-md-2">
+                  <div class="col">
+                    <ul>
+                      <li><a class="dropdown-item text-wrap text-brand overview-link" href="/events-and-opportunities">          Events and opportunities
+        <i class="bi-chevron-right" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                
+  
+    
+  <ul>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 my-md-2 menu-section">
+
+      
+        
+                        
+       
+            <div class="col mb-md-5 menu-col px-0">
+              <ul>
+
+                                <li>
+
+                  
+                                      <a  class="dropdown-item text-wrap text-dark fw-bold level-2" href="/ukraine-mentor-scheme">          Join the Ukraine Mentor Scheme
+        </a>
+
+                                  </li>
+              </ul>
+            </div>
+
+          
+          </li>
+        
+                        
+       
+            <div class="col mb-md-5 menu-col px-0">
+              <ul>
+
+                                <li>
+
+                  
+                                      <a  class="dropdown-item text-wrap text-dark fw-bold level-2" href="/events-and-opportunities/una-europa-starter-fund">          Una Europa Starter Fund
+        </a>
+
+                                  </li>
+              </ul>
+            </div>
+
+          
+          </li>
+              </ul>
+            
+
+            
+          
+          </li>
+        
+                        
+       
+            
+          <li class="nav-item dropdown position-static menu-item--expanded">
+
+            
+            
+              <a href="/stories" class="nav-link dropdown-toggle px-3 text-dark level-1" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown" data-drupal-link-system-path="node/140742">          Stories
+        </a>
+
+            <div class="dropdown-menu w-100 container">
+              <div class="container mega-dropdown">
+                <div class="row my-md-2">
+                  <div class="col">
+                    <ul>
+                      <li><a class="dropdown-item text-wrap text-brand overview-link" href="/stories">          Stories
+        <i class="bi-chevron-right" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                
+  
+    
+  <ul>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 my-md-2 menu-section">
+
+      
+        
+                        
+       
+            <div class="col mb-md-5 menu-col px-0">
+              <ul>
+
+                                <li>
+
+                  
+                                      <a  class="dropdown-item text-wrap text-dark fw-bold level-2" href="/stories/it-donation-helps-rebuild-computer-centre">          IT donation helps rebuild Ukraine partners&#039; computer centre
+        </a>
+
+                                  </li>
+              </ul>
+            </div>
+
+          
+          </li>
+        
+                        
+       
+            <div class="col mb-md-5 menu-col px-0">
+              <ul>
+
+                                <li>
+
+                  
+                                      <a  class="dropdown-item text-wrap text-dark fw-bold level-2" href="/stories/uniting-african-innovators-unique-enterprise-school">          Uniting African innovators at unique Enterprise School
+        </a>
+
+                                  </li>
+              </ul>
+            </div>
+
+          
+          </li>
+        
+                        
+       
+            <div class="col mb-md-5 menu-col px-0">
+              <ul>
+
+                                <li>
+
+                  
+                                      <a  class="dropdown-item text-wrap text-dark fw-bold level-2" href="/stories/finding-home-through-art">          Finding home through art
+        </a>
+
+                                  </li>
+              </ul>
+            </div>
+
+          
+          </li>
+        
+                        
+       
+            <div class="col mb-md-5 menu-col px-0">
+              <ul>
+
+                                <li>
+
+                  
+                                      <a  class="dropdown-item text-wrap text-dark fw-bold level-2" href="/mastercard-foundation-scholars-program/stories/shaping-the-future-ugandas-digital-education">          Shaping the future: Uganda’s Digital Education Practitioners
+        </a>
+
+                                  </li>
+              </ul>
+            </div>
+
+          
+          </li>
+        
+                        
+       
+            <div class="col mb-md-5 menu-col px-0">
+              <ul>
+
+                                <li>
+
+                  
+                                      <a  class="dropdown-item text-wrap text-dark fw-bold level-2" href="/stories/ai-and-robotics-partnership-kerala">          AI and robotics partnership with Kerala
+        </a>
+
+                                  </li>
+              </ul>
+            </div>
+
+          
+          </li>
+        
+                        
+       
+            <div class="col mb-md-5 menu-col px-0">
+              <ul>
+
+                                <li>
+
+                  
+                                      <a  class="dropdown-item text-wrap text-dark fw-bold level-2" href="/stories/study-and-work-away-latest-developments">          SWAY&#039;s latest developments
+        </a>
+
+                                  </li>
+              </ul>
+            </div>
+
+          
+          </li>
+        
+                        
+       
+            <div class="col mb-md-5 menu-col px-0">
+              <ul>
+
+                                <li>
+
+                  
+                                      <a  class="dropdown-item text-wrap text-dark fw-bold level-2" href="/stories/executive-director-cara-receives-honorary-degree">          Executive Director of Cara receives Honorary Degree
+        </a>
+
+                                  </li>
+              </ul>
+            </div>
+
+          
+          </li>
+        
+                        
+       
+            <div class="col mb-md-5 menu-col px-0">
+              <ul>
+
+                                <li>
+
+                  
+                                      <a  class="dropdown-item text-wrap text-dark fw-bold level-2" href="/stories/refugee-week-2024">          Refugee Week 2024
+        </a>
+
+                                  </li>
+              </ul>
+            </div>
+
+          
+          </li>
+        
+                        
+       
+            <div class="col mb-md-5 menu-col px-0">
+              <ul>
+
+                                <li>
+
+                  
+                                      <a  class="dropdown-item text-wrap text-dark fw-bold level-2" href="/stories/nadin-and-iona-join-education-beyond-borders">          Nadin and Iona join Education Beyond Borders
+        </a>
+
+                                  </li>
+              </ul>
+            </div>
+
+          
+          </li>
+        
+                        
+       
+            <div class="col mb-md-5 menu-col px-0">
+              <ul>
+
+                                <li>
+
+                  
+                                      <a  class="dropdown-item text-wrap text-dark fw-bold level-2" href="/stories/students-making-a-difference-for-refugees-star">          Students making a difference for refugees and asylum seekers through STAR Edinburgh
+        </a>
+
+                                  </li>
+              </ul>
+            </div>
+
+          
+          </li>
+        
+                        
+       
+            <div class="col mb-md-5 menu-col px-0">
+              <ul>
+
+                                <li>
+
+                  
+                                      <a  class="dropdown-item text-wrap text-dark fw-bold level-2" href="/stories/nadin-akta-building-community-in-edinburgh">          Nadin Akta: Building Community in Edinburgh
+        </a>
+
+                                  </li>
+              </ul>
+            </div>
+
+          
+          </li>
+        
+                        
+       
+            <div class="col mb-md-5 menu-col px-0">
+              <ul>
+
+                                <li>
+
+                  
+                                      <a  class="dropdown-item text-wrap text-dark fw-bold level-2" href="/stories/ahmad-s-journey-as-a-new-scot">          From Syria to Scotland: Ahmad’s journey as a New Scot
+        </a>
+
+                                  </li>
+              </ul>
+            </div>
+
+          
+          </li>
+        
+                        
+       
+            <div class="col mb-md-5 menu-col px-0">
+              <ul>
+
+                                <li>
+
+                  
+                                      <a  class="dropdown-item text-wrap text-dark fw-bold level-2" href="/stories/afraa-work-with-syrian-teenagers-stteps">          Afraa’s inspiring work with Syrian teenagers through STTEPS
+        </a>
+
+                                  </li>
+              </ul>
+            </div>
+
+          
+          </li>
+        
+                        
+       
+            <div class="col mb-md-5 menu-col px-0">
+              <ul>
+
+                                <li>
+
+                  
+                                      <a  class="dropdown-item text-wrap text-dark fw-bold level-2" href="/stories/welcoming-refugees-community-access-to-rooms">          Welcoming refugees through community access to our classrooms
+        </a>
+
+                                  </li>
+              </ul>
+            </div>
+
+          
+          </li>
+        
+                        
+       
+            <div class="col mb-md-5 menu-col px-0">
+              <ul>
+
+                                <li>
+
+                  
+                                      <a  class="dropdown-item text-wrap text-dark fw-bold level-2" href="/stories/resilience-in-academia-during-wartime">          Resilience in academia during wartime
+        </a>
+
+                                  </li>
+              </ul>
+            </div>
+
+          
+          </li>
+        
+                        
+       
+            <div class="col mb-md-5 menu-col px-0">
+              <ul>
+
+                                <li>
+
+                  
+                                      <a  class="dropdown-item text-wrap text-dark fw-bold level-2" href="/stories/teaching-award-for-inga-ackermann">          Teaching Award for Scholars&#039; Program Coordinator Inga Ackermann
+        </a>
+
+                                  </li>
+              </ul>
+            </div>
+
+          
+          </li>
+        
+                        
+       
+            <div class="col mb-md-5 menu-col px-0">
+              <ul>
+
+                                <li>
+
+                  
+                                      <a  class="dropdown-item text-wrap text-dark fw-bold level-2" href="/stories/university-s-staff-immigration-service">          University’s Staff Immigration Service
+        </a>
+
+                                  </li>
+              </ul>
+            </div>
+
+          
+          </li>
+              </ul>
+            
+
+            
+          
+          </li>
+        
+                        
+       
+            
+          <li class="nav-item dropdown position-static">
+
+            
+                          <a href="/seed-funding" class="nav-link dropdown-toggle px-3 text-dark level-1" data-drupal-link-system-path="node/156624">          Seed funding
+        </a>
+
+            
+          
+          </li>
+              </ul>
+            
+
+
+
+      </div>
+</nav>
+<nav class="uoe-nav navbar navbar-expand-md py-0 uoe-mega-menu-block" role="navigation"
+     aria-labelledby="block-subsitemobilemenu-menu" id="block-subsitemobilemenu">
+            
+  <h2 class="visually-hidden" id="block-subsitemobilemenu-menu">Subsite mobile menu</h2>
+  
+
+    <div class="container-fluid navbar-light bg-white uoe-mega-menu flex-wrap justify-content-start">
+          
+  
+  
+    
+<ul data-block="nav_main subsitemobilemenu" class="uoe-nav navbar-nav me-auto ps-lg-0 collapse" id="uoe-138287">
+  
+    
+        
+    
+    
+    <li class="menu-item--active-trail">
+
+      
+              <a  class="menu-item--active-trail uoe-nav-link collapsed uoe-nav-link-root side-level-1" href="/node/65357">      Home
+    </a>
+      
+      
+      
+        
+    
+    
+    <li>
+
+      
+              <a  class="uoe-nav-link collapsed uoe-nav-link-root side-level-1" href="/about-us">      About us
+    </a>
+      
+      
+      
+        
+    
+    
+    <li>
+
+      
+              <a  class="uoe-nav-link collapsed uoe-nav-link-root side-level-1" href="/partnerships">      Partnerships
+    </a>
+      
+      
+      
+        
+    
+    
+    <li>
+
+      
+              <a  class="uoe-nav-link collapsed uoe-nav-link-root side-level-1" href="/regional-engagement">      Regional
+    </a>
+      
+      
+      
+        
+    
+    
+    <li>
+
+      
+              <a  class="uoe-nav-link collapsed uoe-nav-link-root side-level-1" href="/study-and-work-away-service">      Study and Work Away
+    </a>
+      
+      
+      
+        
+    
+    
+    <li>
+
+      
+              <a  class="uoe-nav-link collapsed uoe-nav-link-root side-level-1" href="/mastercard-foundation">      Mastercard
+    </a>
+      
+      
+      
+        
+    
+    
+    <li>
+
+      
+              <a  class="uoe-nav-link collapsed uoe-nav-link-root side-level-1" href="/education-beyond-borders">      Education Beyond Borders
+    </a>
+      
+      
+      
+        
+    
+    
+    <li>
+
+      
+              <a  class="uoe-nav-link collapsed uoe-nav-link-root side-level-1" href="/staff-immigration-service">      Staff Immigration
+    </a>
+      
+      
+      
+        
+    
+    
+    <li class="menu-item--expanded">
+
+      
+      
+                <div class="mob-menu-link-btn-group btn-group d-flex" role="group">
+          <a  class="menu-item--expanded uoe-nav-link collapsed uoe-nav-link-root side-level-1 has-children mob-menu-link w-100"
+            href="/events-and-opportunities">
+                  Events and opportunities
+    
+          </a>
+
+                              <button type="button" class="btn btn-lg dropdown-toggle-split uoe-nav-link-btn-root"
+                  data-bs-toggle="collapse" data-bs-target="#menu-item-884631515"
+                  aria-expanded="false"
+                  aria-label="Expand submenu">
+            <i class="bi-plus" aria-hidden="true"></i>
+            <span class="visually-hidden">Expand/collapse submenu</span>
+          </button>
+        </div>
+        <div class="collapse " id="menu-item-884631515">
+          <ul class="btn-toggle-nav">
+              
+  
+      <ul>
+    
+    
+        
+    
+      
+    <li class="side-level-2 collapsed">
+
+                    <a  class="side-level-2 collapsed uoe-nav-link uoe-nav-link-ancestor" href="/ukraine-mentor-scheme">      Join the Ukraine Mentor Scheme
+    </a>
+
+      
+      
+      
+        
+    
+      
+    <li class="side-level-2 collapsed">
+
+                    <a  class="side-level-2 collapsed uoe-nav-link uoe-nav-link-ancestor" href="/events-and-opportunities/una-europa-starter-fund">      Una Europa Starter Fund
+    </a>
+
+      
+      
+        </ul>
+    
+          </ul>
+        </div>
+      
+      
+      
+        
+    
+    
+    <li class="menu-item--expanded">
+
+      
+      
+                <div class="mob-menu-link-btn-group btn-group d-flex" role="group">
+          <a  class="menu-item--expanded uoe-nav-link collapsed uoe-nav-link-root side-level-1 has-children mob-menu-link w-100"
+            href="/stories">
+                  Stories
+    
+          </a>
+
+                              <button type="button" class="btn btn-lg dropdown-toggle-split uoe-nav-link-btn-root"
+                  data-bs-toggle="collapse" data-bs-target="#menu-item-194574923"
+                  aria-expanded="false"
+                  aria-label="Expand submenu">
+            <i class="bi-plus" aria-hidden="true"></i>
+            <span class="visually-hidden">Expand/collapse submenu</span>
+          </button>
+        </div>
+        <div class="collapse " id="menu-item-194574923">
+          <ul class="btn-toggle-nav">
+              
+  
+      <ul>
+    
+    
+        
+    
+      
+    <li class="side-level-2 collapsed">
+
+                    <a  class="side-level-2 collapsed uoe-nav-link uoe-nav-link-ancestor" href="/stories/it-donation-helps-rebuild-computer-centre">      IT donation helps rebuild Ukraine partners&#039; computer centre
+    </a>
+
+      
+      
+      
+        
+    
+      
+    <li class="side-level-2 collapsed">
+
+                    <a  class="side-level-2 collapsed uoe-nav-link uoe-nav-link-ancestor" href="/stories/uniting-african-innovators-unique-enterprise-school">      Uniting African innovators at unique Enterprise School
+    </a>
+
+      
+      
+      
+        
+    
+      
+    <li class="side-level-2 collapsed">
+
+                    <a  class="side-level-2 collapsed uoe-nav-link uoe-nav-link-ancestor" href="/stories/finding-home-through-art">      Finding home through art
+    </a>
+
+      
+      
+      
+        
+    
+      
+    <li class="side-level-2 collapsed">
+
+                    <a  class="side-level-2 collapsed uoe-nav-link uoe-nav-link-ancestor" href="/mastercard-foundation-scholars-program/stories/shaping-the-future-ugandas-digital-education">      Shaping the future: Uganda’s Digital Education Practitioners
+    </a>
+
+      
+      
+      
+        
+    
+      
+    <li class="side-level-2 collapsed">
+
+                    <a  class="side-level-2 collapsed uoe-nav-link uoe-nav-link-ancestor" href="/stories/ai-and-robotics-partnership-kerala">      AI and robotics partnership with Kerala
+    </a>
+
+      
+      
+      
+        
+    
+      
+    <li class="side-level-2 collapsed">
+
+                    <a  class="side-level-2 collapsed uoe-nav-link uoe-nav-link-ancestor" href="/stories/study-and-work-away-latest-developments">      SWAY&#039;s latest developments
+    </a>
+
+      
+      
+      
+        
+    
+      
+    <li class="side-level-2 collapsed">
+
+                    <a  class="side-level-2 collapsed uoe-nav-link uoe-nav-link-ancestor" href="/stories/executive-director-cara-receives-honorary-degree">      Executive Director of Cara receives Honorary Degree
+    </a>
+
+      
+      
+      
+        
+    
+      
+    <li class="side-level-2 collapsed">
+
+                    <a  class="side-level-2 collapsed uoe-nav-link uoe-nav-link-ancestor" href="/stories/refugee-week-2024">      Refugee Week 2024
+    </a>
+
+      
+      
+      
+        
+    
+      
+    <li class="side-level-2 collapsed">
+
+                    <a  class="side-level-2 collapsed uoe-nav-link uoe-nav-link-ancestor" href="/stories/nadin-and-iona-join-education-beyond-borders">      Nadin and Iona join Education Beyond Borders
+    </a>
+
+      
+      
+      
+        
+    
+      
+    <li class="side-level-2 collapsed">
+
+                    <a  class="side-level-2 collapsed uoe-nav-link uoe-nav-link-ancestor" href="/stories/students-making-a-difference-for-refugees-star">      Students making a difference for refugees and asylum seekers through STAR Edinburgh
+    </a>
+
+      
+      
+      
+        
+    
+      
+    <li class="side-level-2 collapsed">
+
+                    <a  class="side-level-2 collapsed uoe-nav-link uoe-nav-link-ancestor" href="/stories/nadin-akta-building-community-in-edinburgh">      Nadin Akta: Building Community in Edinburgh
+    </a>
+
+      
+      
+      
+        
+    
+      
+    <li class="side-level-2 collapsed">
+
+                    <a  class="side-level-2 collapsed uoe-nav-link uoe-nav-link-ancestor" href="/stories/ahmad-s-journey-as-a-new-scot">      From Syria to Scotland: Ahmad’s journey as a New Scot
+    </a>
+
+      
+      
+      
+        
+    
+      
+    <li class="side-level-2 collapsed">
+
+                    <a  class="side-level-2 collapsed uoe-nav-link uoe-nav-link-ancestor" href="/stories/afraa-work-with-syrian-teenagers-stteps">      Afraa’s inspiring work with Syrian teenagers through STTEPS
+    </a>
+
+      
+      
+      
+        
+    
+      
+    <li class="side-level-2 collapsed">
+
+                    <a  class="side-level-2 collapsed uoe-nav-link uoe-nav-link-ancestor" href="/stories/welcoming-refugees-community-access-to-rooms">      Welcoming refugees through community access to our classrooms
+    </a>
+
+      
+      
+      
+        
+    
+      
+    <li class="side-level-2 collapsed">
+
+                    <a  class="side-level-2 collapsed uoe-nav-link uoe-nav-link-ancestor" href="/stories/resilience-in-academia-during-wartime">      Resilience in academia during wartime
+    </a>
+
+      
+      
+      
+        
+    
+      
+    <li class="side-level-2 collapsed">
+
+                    <a  class="side-level-2 collapsed uoe-nav-link uoe-nav-link-ancestor" href="/stories/teaching-award-for-inga-ackermann">      Teaching Award for Scholars&#039; Program Coordinator Inga Ackermann
+    </a>
+
+      
+      
+      
+        
+    
+      
+    <li class="side-level-2 collapsed">
+
+                    <a  class="side-level-2 collapsed uoe-nav-link uoe-nav-link-ancestor" href="/stories/university-s-staff-immigration-service">      University’s Staff Immigration Service
+    </a>
+
+      
+      
+        </ul>
+    
+          </ul>
+        </div>
+      
+      
+      
+        
+    
+    
+    <li>
+
+      
+              <a  class="uoe-nav-link collapsed uoe-nav-link-root side-level-1" href="/seed-funding">      Seed funding
+    </a>
+      
+      
+        </ul>
+    
+
+
+      </div>
+</nav>
+
+  </div>
+
+    </div>
+  </header>
+
+<div class="container-content">
+  <div class="row justify-content-lg-center">
+                
+    <div class="col-12 col-lg-9">
+            <div class="row">
+        <div class="col-12">
+            <div>
+    <div id="block-wpp-theme-breadcrumbs">
+  
+    
+        <nav role="navigation" aria-labelledby="system-breadcrumb" aria-label="breadcrumb">
+    <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
+    <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                      <a href="https://www.ed.ac.uk/">Home</a>
+                  </li>
+              <li class="breadcrumb-item">
+                      <a href="/">Edinburgh Global</a>
+                  </li>
+          </ol>
+  </nav>
+
+  </div>
+
+  </div>
+
+        </div>
+      </div>
+            <div class="row">
+        <div class="col-12">
+          <main class="main-content" id="main-content">
+                                        <div>
+    <div data-drupal-messages-fallback class="hidden"></div><div id="block-wpp-theme-content">
+  
+    
+      <article about="/node/65357">
+
+  
+    
+
+  
+  <div>
+    
+      <div>
+      <div class="grid row row-cols-1">
+                  <div class="col">
+            <div>
+
+
+
+    <div class="card card-high">
+        
+            
+                
+                                    <div class="card-header">
+                        <h3 class="card-title">
+                                                            
+            <div>Our vision </div>
+      
+                                                    </h3>
+                    </div>
+                                                    <div class="card-body">
+                        <p class="card-text">
+            <div><p>We celebrate our internationalism, create transformational partnerships, strengthen our international research impact, support our diverse communities and increase international opportunities.</p></div>
+      </p>
+                    </div>
+                                <div class="card-footer">
+                                                        </div>
+
+            
+            </div>
+</div>
+          </div>
+                  <div class="col">
+            <div>  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
+            <div class="layout layout--twocol row">
+    
+          <div  class="layout__region layout__region--first">
+        
+
+
+
+    <div class="card card-medium">
+        
+            
+                                    <div class="card-header">
+                        <h3 class="card-title">
+                                                            
+            <div>Global partnerships </div>
+      
+                                                    </h3>
+                    </div>
+                
+                                                                            <picture>
+                        <source srcset="/sites/default/files/styles/card_image_top/public/2024-06/globalpartnership.jpeg?itok=R6XPYLRv" media="only screen and (min-width: 992px)"/>
+                        <source srcset="/sites/default/files/styles/card_image_top/public/2024-06/globalpartnership.jpeg?itok=R6XPYLRv" media="(min-width: 0px)"/>
+                                                    <img class="card-img-top" src="/sites/default/files/styles/card_image_top/public/2024-06/globalpartnership.jpeg?itok=R6XPYLRv" alt="global partnership"/>
+                        
+                    </picture>
+                
+                                    <div class="card-body">
+                        <p class="card-text">
+            <div><p><a data-uoe-button="info-sign" href="/regional-engagement">Partnership activity by global region</a></p>
+
+<p><a data-uoe-button="info-sign" href="/partnerships">Support for global partnership development</a></p>
+
+<p><a data-uoe-button="info-sign" href="/partnerships/strategic-partnerships">Key strategic partners</a></p></div>
+      </p>
+                    </div>
+                <div class="card-footer">
+                                                                        </div>
+
+            
+            </div>
+
+      </div>
+    
+          <div  class="layout__region layout__region--second">
+        
+
+
+
+    <div class="card card-medium">
+        
+            
+                                    <div class="card-header">
+                        <h3 class="card-title">
+                                                            
+            <div>Strategic partnerships we lead </div>
+      
+                                                    </h3>
+                    </div>
+                
+                                                                            <picture>
+                        <source srcset="/sites/default/files/styles/card_image_top/public/2024-06/strategicpartnerships.png?itok=DSqwIXsv" media="only screen and (min-width: 992px)"/>
+                        <source srcset="/sites/default/files/styles/card_image_top/public/2024-06/strategicpartnerships.png?itok=DSqwIXsv" media="(min-width: 0px)"/>
+                                                    <img class="card-img-top" src="/sites/default/files/styles/card_image_top/public/2024-06/strategicpartnerships.png?itok=DSqwIXsv" alt="strategic partnerships"/>
+                        
+                    </picture>
+                
+                                    <div class="card-body">
+                        <p class="card-text">
+            <div><p><a href="/mastercard-foundation">Mastercard Foundation Scholars Program</a></p>
+
+<p><a data-uoe-button="info-sign" href="/education-beyond-borders">Education Beyond Borders</a>&nbsp;</p>
+
+<p><a data-uoe-button="info-sign" href="/regional-engagement/europe/key-strategic-partners/una-europa">Una Europa</a></p></div>
+      </p>
+                    </div>
+                <div class="card-footer">
+                                                                        </div>
+
+            
+            </div>
+
+      </div>
+    
+      </div>
+
+      </div>
+</div>
+          </div>
+                  <div class="col">
+            <div>  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
+            <div class="layout layout--twocol row">
+    
+          <div  class="layout__region layout__region--first">
+        
+      </div>
+    
+          <div  class="layout__region layout__region--second">
+        
+      </div>
+    
+      </div>
+
+      </div>
+</div>
+          </div>
+                  <div class="col">
+            <div>  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
+            <div class="layout layout--threecol-33-34-33 row">
+    
+          <div  class="layout__region layout__region--first">
+        
+
+
+
+    <div class="card card-medium">
+        
+            
+                                    <div class="card-header">
+                        <h3 class="card-title">
+                                                            <a href="/study-work-away">
+            <div>Study and Work Away Service </div>
+      </a>
+                                                    </h3>
+                    </div>
+                
+                                                                            <picture>
+                        <source srcset="/sites/default/files/styles/card_image_top/public/2024-07/sway_-_student_1_-_flowlines.png?itok=O1W5E1Nt" media="only screen and (min-width: 992px)"/>
+                        <source srcset="/sites/default/files/styles/card_image_top/public/2024-07/sway_-_student_1_-_flowlines.png?itok=O1W5E1Nt" media="(min-width: 0px)"/>
+                                                    <a href="/study-work-away">
+                                <img class="card-img-top" src="/sites/default/files/styles/card_image_top/public/2024-07/sway_-_student_1_-_flowlines.png?itok=O1W5E1Nt" alt="Student"/>
+                            </a>
+                        
+                    </picture>
+                
+                                    <div class="card-body">
+                        <p class="card-text">
+            <div><p>Managing student exchange, international experiences and opportunities.</p>
+
+<p><a data-uoe-button="info-sign" href="/study-work-away/study-exchanges">Study exchanges</a></p>
+
+<p><a data-uoe-button="info-sign" href="/study-work-away/placements">Placements</a></p>
+
+<p><a data-uoe-button="info-sign" href="/study-work-away/short-term-and-virtual-opportunities">Short-term experiences</a>&nbsp;</p></div>
+      </p>
+                    </div>
+                <div class="card-footer">
+                                                                        </div>
+
+            
+            </div>
+
+
+
+
+    <div class="card card-high">
+        
+            
+                
+                                    <div class="card-header">
+                        <h3 class="card-title">
+                                                            <a href="/seed-funding">
+            <div>Seed funding opportunities </div>
+      </a>
+                                                    </h3>
+                    </div>
+                                                    <div class="card-body">
+                        <p class="card-text">
+            <div><p>Fund new collaborative, sustainable research with our global partners.</p><p><a href="https://www.fu-berlin.de/en/international/faculty-staff/project-funding/Una-Starter-Funds/index.html">Una Europa FU Berlin Starter Fund</a></p><p><a href="https://research.kuleuven.be/gedocumenteerd/en/41046">Global Seed Fund, KU Leuven</a></p></div>
+      </p>
+                    </div>
+                                <div class="card-footer">
+                                                        </div>
+
+            
+            </div>
+
+      </div>
+    
+          <div  class="layout__region layout__region--second">
+        
+
+
+
+    <div class="card card-medium">
+        
+            
+                                    <div class="card-header">
+                        <h3 class="card-title">
+                                                            
+            <div>Our global community </div>
+      
+                                                    </h3>
+                    </div>
+                
+                                                                            <picture>
+                        <source srcset="/sites/default/files/styles/card_image_top/public/2024-06/globalcommunity.png?itok=n0hfwIhA" media="only screen and (min-width: 992px)"/>
+                        <source srcset="/sites/default/files/styles/card_image_top/public/2024-06/globalcommunity.png?itok=n0hfwIhA" media="(min-width: 0px)"/>
+                                                    <img class="card-img-top" src="/sites/default/files/styles/card_image_top/public/2024-06/globalcommunity.png?itok=n0hfwIhA" alt="global community"/>
+                        
+                    </picture>
+                
+                                    <div class="card-body">
+                        <p class="card-text">
+            <div><p><a data-uoe-button="info-sign" href="https://www.ed.ac.uk/university-of-sanctuary">A University of Sanctuary</a></p>
+
+<p><a data-uoe-button="info-sign" href="/staff-immigration-service">Staff Immigration Service</a></p>
+
+<p><a data-uoe-button="info-sign" href="/uk-higher-education-humanitarian-group">UK Higher Education Humanitarian Group</a></p>
+
+<p><a data-uoe-button="info-sign" href="/uncovered">UncoverED - Edinburgh's historic global students</a></p></div>
+      </p>
+                    </div>
+                <div class="card-footer">
+                                                                        </div>
+
+            
+            </div>
+
+
+
+
+    <div class="card card-high">
+        
+            
+                
+                                    <div class="card-header">
+                        <h3 class="card-title">
+                                                            <a href="/stories">
+            <div>Global stories </div>
+      </a>
+                                                    </h3>
+                    </div>
+                                                    <div class="card-body">
+                        <p class="card-text">
+            <div><p><a href="https://global.ed.ac.uk/stories/uniting-african-innovators-unique-enterprise-school"><span>Uniting African innovators at unique Enterprise School</span></a></p><p><a href="https://global.ed.ac.uk/stories/it-donation-helps-rebuild-computer-centre"><span>IT donation helps rebuild Ukraine partners' computer centre</span></a></p><p><a href="https://global.ed.ac.uk/stories/study-and-work-away-latest-developments"><span>Study and Work Away - latest updates</span></a></p><p><a href="/stories" data-uoe-button="info-sign">View global stories across the University</a></p></div>
+      </p>
+                    </div>
+                                <div class="card-footer">
+                                                        </div>
+
+            
+            </div>
+
+      </div>
+    
+          <div  class="layout__region layout__region--third">
+        
+
+
+
+    <div class="card card-medium">
+        
+            
+                                    <div class="card-header">
+                        <h3 class="card-title">
+                                                            
+            <div>Global student opportunities </div>
+      
+                                                    </h3>
+                    </div>
+                
+                                                                            <picture>
+                        <source srcset="/sites/default/files/styles/card_image_top/public/2024-06/globalsstudentopportunities.jpg?itok=NTzOojJZ" media="only screen and (min-width: 992px)"/>
+                        <source srcset="/sites/default/files/styles/card_image_top/public/2024-06/globalsstudentopportunities.jpg?itok=NTzOojJZ" media="(min-width: 0px)"/>
+                                                    <img class="card-img-top" src="/sites/default/files/styles/card_image_top/public/2024-06/globalsstudentopportunities.jpg?itok=NTzOojJZ" alt="global student opportunities "/>
+                        
+                    </picture>
+                
+                                    <div class="card-body">
+                        <p class="card-text">
+            <div><p><a href="/mastercard-foundation/apply-for-a-scholarship">Apply for a Mastercard Foundation Program Scholarship</a></p>
+
+<p><a data-uoe-button="info-sign" href="/regional-engagement/europe/key-strategic-partners/una-europa/student-network">Join the Una Europa Student Network</a></p>
+
+<p><a data-uoe-button="info-sign" href="/scholars-network">Access the Scholars Network</a></p>
+
+<p><a data-uoe-button="info-sign" href="/study-abroad">Study Abroad in Edinburgh</a></p></div>
+      </p>
+                    </div>
+                <div class="card-footer">
+                                                                        </div>
+
+            
+            </div>
+
+
+
+
+    <div class="card card-high">
+        
+            
+                
+                                    <div class="card-header">
+                        <h3 class="card-title">
+                                                            <a href="/about-us">
+            <div>About us </div>
+      </a>
+                                                    </h3>
+                    </div>
+                                                    <div class="card-body">
+                        <p class="card-text">
+            <div><p><a data-uoe-button="info-sign" href="/about-us">Staff list</a></p>
+
+<p><a data-uoe-button="info-sign" href="/events-and-opportunities">Events and opportunities</a></p>
+
+<p><a data-uoe-button="info-sign" href="https://mailings.ed.ac.uk/p/4M9K-UY4/sign-up-for-edinburgh-global-news">Sign up for our staff newsletter</a></p>
+
+<p><a data-uoe-button="info-sign" href="/guide-for-our-people">Guide for our people</a></p>
+
+<p><a href="https://uoe.sharepoint.com/sites/Edinburgh-Global">SharePoint Hub</a></p>
+
+<p><a href="https://www.instagram.com/edinburghuniversity_global/">Follow us on Instagram</a></p></div>
+      </p>
+                    </div>
+                                <div class="card-footer">
+                                                        </div>
+
+            
+            </div>
+
+      </div>
+    
+      </div>
+
+      </div>
+</div>
+          </div>
+              </div>
+    </div>
+  
+            <div>
+        <p class="article-published">This article was published on
+          <time datetime="2024-06-24T12:09:51+01:00">2024-06-24</time>
+
+        </p>
+      </div>
+      
+  </div>
+
+</article>
+
+  </div>
+
+  </div>
+
+                                  </main>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <footer>
+  
+  <div class="footer-subsite-content">
+    <div class="container-footer">
+      <div class="row">
+                  <div class="col-sm-6 col-md-8">
+          </div>
+                          <div class="col-sm-6 col-md-4">
+            <a href="/contact" class="btn btn-brand btn-sm" title="">
+              Contact us
+              <svg class="icon">
+                <use xlink:href="#edgel-chevron-right"></use>
+              </svg>
+            </a>
+          </div>
+              </div>
+    </div>
+  </div>
+
+  <div class="footer-discover">
+    <h3 class="footer-discover-heading">
+      The University of Edinburgh
+    </h3>
+  </div>
+  <div class="footer">
+    <div class="container-footer">
+      <div class="row">
+        <div class="col-md-4">
+          <ul class="list-unstyled">
+            <li><a href="https://www.ed.ac.uk/about/website/website-terms-conditions">Terms &amp; conditions</a></li>
+            <li><a href="https://edin.ac/privacy-information">Privacy &amp; cookies</a></li>
+            <li><a href="https://www.ed.ac.uk/university-secretary-group/complaint-handling-procedure">Complaints procedure</a></li>
+            <li><a href="https://www.ed.ac.uk/sustainability/what-we-do/supply-chains/initiatives/modern-slavery/statement">Modern slavery</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-unstyled">
+            <li><a href="https://edin.ac/accessibility-statement">Website accessibility</a></li>
+            <li><a href="https://www.ed.ac.uk/about/website/freedom-information">Freedom of information publication scheme</a></li>
+            <li><a href="https://www.ed.ac.uk/data-protection">Data protection / Records Management</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-6 justify-content-end">
+          <a href="https://www.ed.ac.uk/about/mission-governance/affiliations">
+            <img class="img-fluid" alt="University affiliations" src="/themes/upstream/wpp_theme/images/footer-affiliations.png">
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 order-md-2">
+          <p class="float-end">
+            <a class="btn btn-brand btn-sm" href="https://www.myed.ed.ac.uk/">
+              MyEd login <i class="bi bi-chevron-right"></i>
+            </a>
+          </p>
+        </div>
+        <div class="col-md-8 order-md-1">
+          <p>
+            The University of Edinburgh is a charitable body, registered in Scotland, with registration number SC005336, VAT Registration Number GB&nbsp;592&nbsp;9507&nbsp;00, and is acknowledged by the UK authorities as a “<a href="https://www.gov.uk/guidance/recognised-uk-degrees">Recognised body</a>” which has been granted degree awarding powers.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-footer-copyright">
+    Unless explicitly stated otherwise, all material is copyright &copy; The University of Edinburgh 2024.
+  </div>
+  <div class="container-footer">
+      <div>
+    <nav role="navigation" aria-labelledby="block-useraccountmenu-menu" id="block-useraccountmenu">
+            
+  <h2 class="visually-hidden" id="block-useraccountmenu-menu">User account menu</h2>
+  
+
+        
+    
+                                        
+        <a class="footer-login-link" href="/user/login?destination=/node/65357">
+          <abbr>CMS</abbr> login
+          <svg class="icon">
+            <use xlink:href="#edgel-chevron-right"></use>
+          </svg>
+        </a>
+      
+  
+
+
+  </nav>
+
+  </div>
+
+  </div>
+</footer>
+
+  </div>
+
+
+<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/65357","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"clientside_validation_jquery":{"validate_all_ajax_forms":2,"force_validate_on_blur":false,"messages":{"required":"This field is required.","remote":"Please fix this field.","email":"Please enter a valid email address.","url":"Please enter a valid URL.","date":"Please enter a valid date.","dateISO":"Please enter a valid date (ISO).","number":"Please enter a valid number.","digits":"Please enter only digits.","equalTo":"Please enter the same value again.","maxlength":"Please enter no more than {0} characters.","minlength":"Please enter at least {0} characters.","rangelength":"Please enter a value between {0} and {1} characters long.","range":"Please enter a value between {0} and {1}.","max":"Please enter a value less than or equal to {0}.","min":"Please enter a value greater than or equal to {0}.","step":"Please enter a multiple of {0}."}},"csp":{"nonce":"uFRcqn9KwLmuvHxt42lZgA"},"user":{"uid":0,"permissionsHash":"583304c4f6cb2b73c1074bd07b2a3eaf245ad949e79cddda6ae9e580095cefaf"}}</script>
+<script src="/sites/default/files/js/js_bcjzi5ko6HEuCRV5_2llLufrdrOz8zWzNS6OJQemdDo.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=wpp_theme&amp;include=eJxtyjEOwyAMRuELJWGg90EGfgGSUywbGnH7ZmuGLm_49GzZwOkiGbZLJIyKE65wj8QPYBRK6wHIBbxHntijtlLHJqRUlKSayzqF-PjJMd8yIzeryBvT6nOE3Cz1D3S5URVInYP3wb_u_lmufg9f2BhDFw"></script>
+<script src="/libraries/uoe--edgel/dist/js/edgel.bundle.min.js?slr1rj"></script>
+<script src="/sites/default/files/js/js_ZuiFP9yGQolQaCIKigi_yMu7WxeQ5Y7xx9KZhrt7v0I.js?scope=footer&amp;delta=2&amp;language=en&amp;theme=wpp_theme&amp;include=eJxtyjEOwyAMRuELJWGg90EGfgGSUywbGnH7ZmuGLm_49GzZwOkiGbZLJIyKE65wj8QPYBRK6wHIBbxHntijtlLHJqRUlKSayzqF-PjJMd8yIzeryBvT6nOE3Cz1D3S5URVInYP3wb_u_lmufg9f2BhDFw"></script>
+
+</body>
+</html>
