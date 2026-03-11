@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Certificate Generator</title>
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+  <style>
+    :root {
+      --paper: #fffdf8;
+      --gold: #b48a3c;
+      --gold-dark: #8d6827;
+      --ink: #2b2b2b;
+      --muted: #6f6a63;
+      --line: rgba(180, 138, 60, 0.35);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Georgia", "Times New Roman", serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, #fff8e7 0%, transparent 22%),
+        radial-gradient(circle at bottom right, #f4e4bf 0%, transparent 18%),
+        linear-gradient(135deg, #f5f1e8, #ebe1cf);
+      min-height: 100vh;
+      padding: 28px;
+    }
+
+    .wrap {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 340px 1fr;
+      gap: 24px;
+      align-items: start;
+    }
+
+    .panel {
+      background: rgba(255,255,255,0.72);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(180, 138, 60, 0.22);
+      border-radius: 20px;
+      padding: 22px;
+      box-shadow: 0 14px 40px rgba(0,0,0,0.08);
+    }
+
+    .panel h1 {
+      margin: 0 0 12px;
+      font-size: 1.8rem;
+    }
+
+    .panel p {
+      margin: 0 0 18px;
+      line-height: 1.6;
+      color: var(--muted);
+      font-size: 0.98rem;
+    }
+
+    .field {
+      margin-bottom: 14px;
+    }
+
+    label {
+      display: block;
+      font-size: 0.92rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    input {
+      width: 100%;
+      border: 1px solid rgba(0,0,0,0.12);
+      border-radius: 12px;
+      padding: 12px 14px;
+      font: inherit;
+      background: rgba(255,255,255,0.92);
+      color: var(--ink);
+    }
+
+    .btns {
+      display: grid;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    button {
+      border: none;
+      border-radius: 14px;
+      padding: 13px 16px;
+      font: inherit;
+      font-weight: 700;
+      cursor: pointer;
+      transition: transform 0.12s ease, box-shadow 0.12s ease;
+    }
+
+    button:hover { transform: translateY(-1px); }
+    button:active { transform: translateY(0); }
+
+    .primary {
+      background: linear-gradient(135deg, var(--gold), #d3b16f);
+      color: white;
+      box-shadow: 0 10px 24px rgba(180, 138, 60, 0.25);
+    }
+
+    .secondary {
+      background: #ffffff;
+      color: var(--ink);
+      border: 1px solid rgba(0,0,0,0.08);
+    }
+
+    .preview-shell {
+      overflow: auto;
+    }
+
+    .certificate {
+      width: 1123px;
+      height: 794px;
+      margin: 0 auto;
+      background: var(--paper);
+      position: relative;
+      border: 18px solid #f0e4c7;
+      box-shadow: 0 24px 60px rgba(0,0,0,0.12);
+      overflow: hidden;
+    }
+
+    .certificate::before,
+    .certificate::after {
+      content: "";
+      position: absolute;
+      inset: 24px;
+      border: 2px solid var(--gold);
+      pointer-events: none;
+    }
+
+    .certificate::after {
+      inset: 36px;
+      border: 1px solid var(--line);
+    }
+
+    .corner {
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      border: 3px solid var(--gold);
+      opacity: 0.22;
+      z-index: 1;
+    }
+
+    .corner.tl { top: 52px; left: 52px; border-right: 0; border-bottom: 0; }
+    .corner.tr { top: 52px; right: 52px; border-left: 0; border-bottom: 0; }
+    .corner.bl { bottom: 52px; left: 52px; border-right: 0; border-top: 0; }
+    .corner.br { bottom: 52px; right: 52px; border-left: 0; border-top: 0; }
+
+    .watermark-logo {
+      position: absolute;
+      right: 86px;
+      bottom: 86px;
+      width: 150px;
+      opacity: 0.08;
+      object-fit: contain;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .inner {
+      position: absolute;
+      inset: 0;
+      padding: 88px 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: center;
+      z-index: 2;
+    }
+
+    .top-logo-wrap {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 14px;
+      min-height: 96px;
+    }
+
+    .top-logo {
+      max-height: 90px;
+      max-width: 220px;
+      object-fit: contain;
+      display: block;
+    }
+
+    .eyebrow {
+      letter-spacing: 0.35em;
+      font-size: 0.92rem;
+      text-transform: uppercase;
+      color: var(--gold-dark);
+      margin-bottom: 14px;
+    }
+
+    .title {
+      font-size: 3.1rem;
+      margin: 0;
+      color: #3b2d14;
+      line-height: 1.1;
+    }
+
+    .subtitle {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 1.08rem;
+      line-height: 1.7;
+    }
+
+    .name {
+      font-size: 3rem;
+      color: var(--gold-dark);
+      margin: 22px 0 10px;
+      padding-bottom: 12px;
+      border-bottom: 2px solid rgba(180, 138, 60, 0.36);
+      display: inline-block;
+      min-width: 360px;
+      max-width: 90%;
+      word-break: break-word;
+    }
+
+    .description {
+      max-width: 760px;
+      margin: 18px auto 0;
+      font-size: 1.08rem;
+      line-height: 1.8;
+      color: #4d463d;
+    }
+
+    .date-text {
+      margin-top: 6px;
+      color: #6d655c;
+      font-size: 1rem;
+    }
+
+    .bottom {
+      display: flex;
+      justify-content: flex-start;
+      margin-top: 34px;
+    }
+
+    .sign-block {
+      text-align: center;
+      min-width: 260px;
+    }
+
+    .signature-image-wrap {
+      height: 64px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      margin-bottom: -2px;
+    }
+
+    .signature-image {
+      max-width: 220px;
+      max-height: 58px;
+      object-fit: contain;
+      display: block;
+    }
+
+    .signature-line {
+      border-top: 1.5px solid rgba(0,0,0,0.35);
+      padding-top: 12px;
+      font-size: 0.98rem;
+      color: #5f5a52;
+    }
+
+    .tips {
+      margin-top: 16px;
+      padding-top: 14px;
+      border-top: 1px dashed rgba(0,0,0,0.12);
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.65;
+    }
+
+    @media (max-width: 1080px) {
+      .wrap {
+        grid-template-columns: 1fr;
+      }
+
+      .preview-shell {
+        overflow-x: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="panel">
+      <h1></h1>
+      <p></p>
+
+      <div class="field">
+        <label for="recipientInput">Your Name</label>
+        <input id="recipientInput" type="text" value="Arthur" placeholder="请输入名字" />
+      </div>
+
+      <div class="field">
+        <label for="dateInput">Date</label>
+        <input id="dateInput" type="text" value="March 10, 2026" placeholder="例如：March 10, 2026" />
+      </div>
+
+      <div class="btns">
+        <button class="secondary" id="previewBtn">Update</button>
+        <button class="primary" id="pdfBtn">Generate PDF</button>
+        <button class="secondary" id="pngBtn">Export PNG</button>
+      </div>
+
+      <div class="tips">
+        TJNB<br>
+        TJNB <strong>TJNB</strong> TJNB<br>
+        TJNB <strong>TJNBg</strong> TJNB <strong>TJNB</strong>TJNB<br>
+        TJNB<strong>TJNB</strong>TJNB<br>
+        TJNB
+      </div>
+    </section>
+
+    <section class="panel preview-shell">
+      <div id="certificate" class="certificate">
+        <div class="corner tl"></div>
+        <div class="corner tr"></div>
+        <div class="corner bl"></div>
+        <div class="corner br"></div>
+        <img class="watermark-logo" src="/image/logo.png" alt="Watermark" />
+
+        <div class="inner">
+          <div>
+            <div class="top-logo-wrap">
+              <img id="previewLogo" class="top-logo" src="/image/logo.png" alt="Logo" />
+            </div>
+            <div class="eyebrow">Official Recognition</div>
+            <h2 class="title" id="previewTitle">Bachelor Diploma</h2>
+            <div class="subtitle" id="previewSubtitle">This certificate is proudly presented to</div>
+            <div class="name" id="previewName">Your Name</div>
+            <div class="description" id="previewDescription">
+              In recognition of outstanding performance, dedication, and successful completion of bachelor diploma in UMTE.
+            </div>
+          </div>
+
+          <div>
+            <div class="date-text" id="previewDate">March 10, 2026</div>
+            <div class="bottom">
+              <div class="sign-block">
+                <div class="signature-image-wrap">
+                  <img id="previewSignature" class="signature-image" src="/image/signature.png" alt="Signature" />
+                </div>
+                <div class="signature-line" id="previewIssuerLeft">Open Certificate Studio</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const { jsPDF } = window.jspdf;
+
+    const fields = {
+      recipient: document.getElementById('recipientInput'),
+      date: document.getElementById('dateInput')
+    };
+
+    const preview = {
+      name: document.getElementById('previewName'),
+      date: document.getElementById('previewDate')
+    };
+
+    const certificate = document.getElementById('certificate');
+
+    function updatePreview() {
+      preview.name.textContent = fields.recipient.value.trim() || 'Recipient Name';
+      preview.date.textContent = fields.date.value.trim() || 'Date';
+    }
+
+    async function captureCertificate(scale = 2) {
+      updatePreview();
+      return await html2canvas(certificate, {
+        scale,
+        useCORS: true,
+        backgroundColor: '#fffdf8'
+      });
+    }
+
+    async function generatePDF() {
+      const canvas = await captureCertificate(2.5);
+      const imgData = canvas.toDataURL('image/png');
+      const pdf = new jsPDF({
+        orientation: 'landscape',
+        unit: 'px',
+        format: [canvas.width, canvas.height]
+      });
+
+      pdf.addImage(imgData, 'PNG', 0, 0, canvas.width, canvas.height);
+      const fileName = `${(fields.recipient.value.trim() || 'certificate').replace(/[^a-zA-Z0-9_-]+/g, '_')}_certificate.pdf`;
+      pdf.save(fileName);
+    }
+
+    async function exportPNG() {
+      const canvas = await captureCertificate(2.5);
+      const link = document.createElement('a');
+      const fileName = `${(fields.recipient.value.trim() || 'certificate').replace(/[^a-zA-Z0-9_-]+/g, '_')}_certificate.png`;
+      link.download = fileName;
+      link.href = canvas.toDataURL('image/png');
+      link.click();
+    }
+
+    document.getElementById('previewBtn').addEventListener('click', updatePreview);
+    document.getElementById('pdfBtn').addEventListener('click', generatePDF);
+    document.getElementById('pngBtn').addEventListener('click', exportPNG);
+
+    [fields.recipient, fields.date].forEach(el => {
+      el.addEventListener('input', updatePreview);
+    });
+
+    updatePreview();
+  </script>
+</body>
+</html>
